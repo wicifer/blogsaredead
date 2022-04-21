@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nsudo',
+1 verbose cli   'n',
+1 verbose cli   'stable' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData nsudo
+8 silly fetchPackageMetaData n
+9 silly fetchPackageMetaData stable
+10 silly fetchNamedPackageData nsudo
+11 silly mapToRegistry name nsudo
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/nsudo
+15 silly fetchNamedPackageData n
+16 silly mapToRegistry name n
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/n
+20 silly fetchNamedPackageData stable
+21 silly mapToRegistry name stable
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/stable
+25 verbose request uri https://registry.npmjs.org/nsudo
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 8:36:06 PM
+28 verbose request id cc21ee27e1c61118
+29 http request GET https://registry.npmjs.org/nsudo
+30 verbose request uri https://registry.npmjs.org/stable
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 8:36:06 PM
+33 http request GET https://registry.npmjs.org/stable
+34 verbose request uri https://registry.npmjs.org/n
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 8:36:06 PM
+37 verbose etag W/"d34e263db6cfbb492bbbda23b40a7f36"
+38 verbose lastModified Fri, 18 Mar 2022 05:18:41 GMT
+39 http request GET https://registry.npmjs.org/n
+40 http 304 https://registry.npmjs.org/n
+41 verbose headers { date: 'Thu, 14 Apr 2022 23:36:06 GMT',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'cf-ray': '6fc043038e3325f1-GIG',
+41 verbose headers   age: '49',
+41 verbose headers   'cache-control': 'public, max-age=300',
+41 verbose headers   etag: '"d34e263db6cfbb492bbbda23b40a7f36"',
+41 verbose headers   'last-modified': 'Fri, 18 Mar 2022 05:18:41 GMT',
+41 verbose headers   vary: 'Accept-Encoding',
+41 verbose headers   'cf-cache-status': 'HIT',
+41 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 verbose headers   'x-amz-replication-status': 'COMPLETED',
+41 verbose headers   server: 'cloudflare' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Thu, 14 Apr 2022 23:36:06 GMT',
+42 silly get     connection: 'keep-alive',
+42 silly get     'cf-ray': '6fc043038e3325f1-GIG',
+42 silly get     age: '49',
+42 silly get     'cache-control': 'public, max-age=300',
+42 silly get     etag: '"d34e263db6cfbb492bbbda23b40a7f36"',
+42 silly get     'last-modified': 'Fri, 18 Mar 2022 05:18:41 GMT',
+42 silly get     vary: 'Accept-Encoding',
+42 silly get     'cf-cache-status': 'HIT',
+42 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 silly get     'x-amz-replication-status': 'COMPLETED',
+42 silly get     server: 'cloudflare' } ]
+43 verbose etag https://registry.npmjs.org/n from cache
+44 verbose get saving n to /home/wictorfernandes-e14/.npm/registry.npmjs.org/n/.cache.json
+45 http 200 https://registry.npmjs.org/stable
+46 verbose headers { date: 'Thu, 14 Apr 2022 23:36:07 GMT',
+46 verbose headers   'content-type': 'application/json; charset=UTF-8',
+46 verbose headers   'transfer-encoding': 'chunked',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'cf-ray': '6fc043038fcd2767-GIG',
+46 verbose headers   'access-control-allow-origin': '*',
+46 verbose headers   'cache-control': 'public, max-age=300',
+46 verbose headers   etag: 'W/"3cfe4569de942571eefe249fa13d01d2"',
+46 verbose headers   'last-modified': 'Sun, 27 May 2018 18:08:59 GMT',
+46 verbose headers   vary: 'accept-encoding, accept',
+46 verbose headers   'cf-cache-status': 'REVALIDATED',
+46 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 verbose headers   server: 'cloudflare',
+46 verbose headers   'content-encoding': 'gzip' }
+47 silly get cb [ 200,
+47 silly get   { date: 'Thu, 14 Apr 2022 23:36:07 GMT',
+47 silly get     'content-type': 'application/json; charset=UTF-8',
+47 silly get     'transfer-encoding': 'chunked',
+47 silly get     connection: 'keep-alive',
+47 silly get     'cf-ray': '6fc043038fcd2767-GIG',
+47 silly get     'access-control-allow-origin': '*',
+47 silly get     'cache-control': 'public, max-age=300',
+47 silly get     etag: 'W/"3cfe4569de942571eefe249fa13d01d2"',
+47 silly get     'last-modified': 'Sun, 27 May 2018 18:08:59 GMT',
+47 silly get     vary: 'accept-encoding, accept',
+47 silly get     'cf-cache-status': 'REVALIDATED',
+47 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+47 silly get     server: 'cloudflare',
+47 silly get     'content-encoding': 'gzip' } ]
+48 verbose get saving stable to /home/wictorfernandes-e14/.npm/registry.npmjs.org/stable/.cache.json
+49 http 404 https://registry.npmjs.org/nsudo
+50 verbose headers { date: 'Thu, 14 Apr 2022 23:36:07 GMT',
+50 verbose headers   'content-type': 'application/json',
+50 verbose headers   'content-length': '21',
+50 verbose headers   connection: 'keep-alive',
+50 verbose headers   'cf-ray': '6fc0430389fa25a4-GIG',
+50 verbose headers   vary: 'Accept-Encoding',
+50 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+50 verbose headers   server: 'cloudflare' }
+51 silly get cb [ 404,
+51 silly get   { date: 'Thu, 14 Apr 2022 23:36:07 GMT',
+51 silly get     'content-type': 'application/json',
+51 silly get     'content-length': '21',
+51 silly get     connection: 'keep-alive',
+51 silly get     'cf-ray': '6fc0430389fa25a4-GIG',
+51 silly get     vary: 'Accept-Encoding',
+51 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+51 silly get     server: 'cloudflare' } ]
+52 silly fetchPackageMetaData Error: Not found : nsudo
+52 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+52 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+52 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+52 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+52 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+52 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+52 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+52 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+52 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+52 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+52 silly fetchPackageMetaData  error for nsudo { Error: Not found : nsudo
+52 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+52 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+52 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+52 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+52 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+52 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+52 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+52 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+52 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+52 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'nsudo', statusCode: 404, code: 'E404' }
+53 silly rollbackFailedOptional Starting
+54 silly rollbackFailedOptional Finishing
+55 silly runTopLevelLifecycles Starting
+56 silly runTopLevelLifecycles Finishing
+57 silly install printInstalled
+58 verbose stack Error: Not found : nsudo
+58 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+58 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+58 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+58 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+58 verbose stack     at emitTwo (events.js:126:13)
+58 verbose stack     at Request.emit (events.js:214:7)
+58 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+58 verbose stack     at emitOne (events.js:121:20)
+58 verbose stack     at Request.emit (events.js:211:7)
+58 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+59 verbose statusCode 404
+60 verbose pkgid nsudo
+61 verbose cwd /home/wictorfernandes-e14/Documents/Ruby/blogsaredead
+62 error Linux 5.4.0-107-generic
+63 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "nsudo" "n" "stable"
+64 error node v8.10.0
+65 error npm  v3.5.2
+66 error code E404
+67 error 404 Not found : nsudo
+68 error 404
+69 error 404 'nsudo' is not in the npm registry.
+70 error 404 You should bug the author to publish it (or use the name yourself!)
+71 error 404 Note that you can also install from a
+72 error 404 tarball, folder, http url, or git url.
+73 verbose exit [ 1, true ]

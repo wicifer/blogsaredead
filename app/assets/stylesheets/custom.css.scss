@@ -1,0 +1,43 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: rgb(121, 180, 214) !important;
+}
+
+.jumbotron {
+    background-image: asset-url('duck-flying.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: rgb(14, 12, 12);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #8bbbee;
+  background: linear-gradient(to right, #73a8ec, #33AEFF);
+}
+
