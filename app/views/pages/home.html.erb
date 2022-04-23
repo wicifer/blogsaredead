@@ -5,7 +5,9 @@
             <p class="lead">They walk, they swim, they fly.</p>
             <hr class="my-4">
             <p>Ducks are awesome.</p>
-            <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
+            <div class="btn btn-lg">
+                <%= button_to 'Learn more', articles_path, method: :get %>
+            </div> 
         </div>
     </div>
 </div>
