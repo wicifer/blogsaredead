@@ -1,15 +1,15 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-    background-color: rgb(121, 180, 214) !important;
+    background-color: rgb(104, 130, 145) !important;
 }
 
 .jumbotron {
-    background-image: asset-url('duck-flying.jpg');
+    background-image: asset-url('minimalist.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 425px;
+    height: 525px;
 }
 
 
@@ -39,6 +39,6 @@ body {
 /* Other Classes for Page Styling */
 
 body {
-  background: #8bbbee;
-  background: linear-gradient(to right, #73a8ec, #33AEFF);
+  background: #353738;
+  background: linear-gradient(to right, #3d454e, #394247);
 }
