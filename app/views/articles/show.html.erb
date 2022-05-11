@@ -12,8 +12,9 @@
         </div>
         <div class="card-footer text-muted">
             <small>
+            By <%= @article.user.username if @article.user %>.
             Created <%= time_ago_in_words(@article.created_at) %> ago,
-            edited <%= time_ago_in_words(@article.updated_at) %> ago
+            edited <%= time_ago_in_words(@article.updated_at) %> ago.
             </small>
         </div>
         </div>
