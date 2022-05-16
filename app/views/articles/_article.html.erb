@@ -13,7 +13,8 @@
           </div>
           <div class="card-footer text-muted">
             <small>
-              By <%= article.user.username %>.
+         
+              By <%= link_to article.user.username,user_path(article.user), class:"text-dark" %>.
               Created <%= time_ago_in_words(article.created_at) %> ago,
               edited <%= time_ago_in_words(article.updated_at) %> ago.
             </small>

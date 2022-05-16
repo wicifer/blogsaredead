@@ -4,6 +4,14 @@
 
 <h1 class="text-center mt-3 text-white"> <%= @user.username %> </h1>
 
-<h2 class="text-center mt-3 text-white"> Articles </h2>
+<div class="text-center mt-4"> 
+  <%= link_to "Edit your profile", edit_user_path(@user), class: "btn btn-outline-light btn-lg" %>
+</div>
+
+<h2 class="text-center mt-5 text-white"> Articles </h2>
+
+<div class="apple_pagination">
+  <%= will_paginate @articles , :container => false %>
+</div>
 
 <%= render 'articles/article' %>

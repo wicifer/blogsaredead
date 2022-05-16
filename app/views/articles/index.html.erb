@@ -1,8 +1,15 @@
 <h1 class="text-center mt-4 text-white"> Articles </h1>
 
+<div class="apple_pagination">
+  <%= will_paginate @articles , :container => false %>
+</div>
+
 <%= render 'article' %>
 
 <div class="row justify-content-md-center mb-3">
     <%= button_to 'Create new article', new_article_path, method: :get, class: "btn btn-outline-light btn-lg" %>
 </div> 
 
+<div class="apple_pagination">
+  <%= will_paginate @articles , :container => false %>
+</div>
