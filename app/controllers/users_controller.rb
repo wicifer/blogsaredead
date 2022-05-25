@@ -42,7 +42,7 @@ class UsersController < ApplicationController
     @user.destroy
     session[:user_id] = nil
     flash[:notice] = "Sad to see you go"
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   private
@@ -59,6 +59,7 @@ class UsersController < ApplicationController
     if current_user != @user
       flash[:alert] = "You can only edit your on profile"
       redirect_to @user
+    end
   end
 
 end
