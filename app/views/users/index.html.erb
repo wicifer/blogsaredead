@@ -16,7 +16,9 @@
             <h4 class="card-text"><%= pluralize(user.articles.count, "article")%></h4>
             
             <%= link_to 'View profile', user, method: :get, class: "btn btn-outline-primary"%>
-            <%= link_to 'Edit profile', edit_user_path(user), method: :get, class: "btn btn-outline-primary" %>
+            <% if logged_in?  && user == current_user %>
+              <%= link_to 'Edit profile', edit_user_path(user), method: :get, class: "btn btn-outline-primary" %>
+            <% end %>
     
           </div>
           <div class="card-footer text-muted">
